@@ -37,7 +37,7 @@ export default function Home() {
           <div className='text-center p-10'>
             <h2 className='py-2 text-5xl font-medium md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-400'>Henry Alessando Lurssen</h2>
             <h3 className='text-2xl py-3 md:text-3xl dark:text-white'>Developer, Designer, Engineer.</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 dark:text-white md:text-xl max-w-xl mx-auto'>Welcome possible future employer! My name is Henry A. Lurssen. I'm an ex (undergrad) medical student and now junior software engineer based in Boston, MA. (actually greater Boston. But just saying Boston makes it easier for everyone) </p>
+            <p className='text-md py-5 leading-8 text-gray-800 dark:text-white md:text-xl max-w-xl mx-auto'>Welcome possible future employer! My name is Henry A. Lurssen. Im an ex (undergrad) medical student and now junior software engineer based in Boston, MA. (actually greater Boston. But just saying Boston makes it easier for everyone) </p>
           </div>
 
           <div className='text-5xl flex justify-center gap-16 dark:bg-gray-700 '>
@@ -55,12 +55,12 @@ export default function Home() {
         <section>
           <div className='text-center p-10'>
             <h3 className='text-3xl py-1 flex justify-center dark:text-white'>Brief Intro :</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>Since I began my journey as a developer, I've always given my attention to things that could help me <span className='text-orange-400'>elevate</span> my skill. As of today, I have not yet worked with any tech companies. That is not to say that I am useless but that Im sort of like a clean <span className='text-orange-400'>canvas</span> to work with, one that wont bring any bad habits to whatever team Im placed in haha. </p>
+            <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>Since I began my journey as a developer, Ive always given my attention to things that could help me <span className='text-orange-400'>elevate</span> my skill. As of today, I have not yet worked with any tech companies. That is not to say that I am useless but that Im sort of like a clean <span className='text-orange-400'>canvas</span> to work with, one that wont bring any bad habits to whatever team Im placed in haha. </p>
           </div>
 
           <div className='lg:flex gap-10'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
-              <Image src={design} width={100} height={100}/>
+              <Image src={design} width={100} height={100} alt=''/>
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-black'>Designs</h3>
               <p className='py-2 dark:text-black'>Creations made by using my brain meats and beautiful core design theory (Taught by the spectacular Professor Google and the Coding Dojo Facility) Always getting ispiration from websites like Nike, Apple, and TikTok.</p>
               <h4 className='py-4 text-orange-400 dark:text-black'>Tools I Use</h4>
@@ -71,7 +71,7 @@ export default function Home() {
             </div>
 
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
-              <Image src={code} width={100} height={100}/>
+              <Image src={code} width={100} height={100} alt=''/>
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-black'>Code</h3>
               <p className='py-2 dark:text-black'>From smaller YouTube instructors to ex-google ex facebook tech lead lectures, my code is based on the most proffecient and easy to read in what is coding syntax and grammar. </p>
               <h4 className='py-4 text-orange-400 dark:text-black'>Tools I Use</h4>
@@ -82,7 +82,7 @@ export default function Home() {
             </div>
 
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
-              <Image src={consulting} width={100} height={100}/>
+              <Image src={consulting} width={100} height={100} alt=''/>
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-black'>Consulting</h3>
               <p className='py-2 dark:text-black'>Turning ideas into real life <span className='text-orange-600'>Products</span> is my calling. In school, most of what I did to help MYSELF was help OTHERS. Anything from HTML/CSS to using tools like Figma and Tailwind or algorithmic problems.</p>
               <h4 className='py-4 text-orange-400 dark:text-black'>Languages I Use</h4>
@@ -101,27 +101,27 @@ export default function Home() {
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg: flex-wrap'>
             <div className='basis-1/3 flex-1'>
-              <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive"/>
+              <Image src={web1} alt='' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive"/>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web3} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive"/>
+              <Image src={web3} alt='' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive"/>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web5} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive"/>
+              <Image src={web5} alt='' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive"/>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web6} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive"/>
+              <Image src={web6} alt='' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive"/>
             </div>
           </div>
 
           <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
-              <Image src={code} width={100} height={100}/>
+              <Image src={code} alt='' width={100} height={100}/>
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-black'>Contact Me</h3>
-              <p className='py-2 dark:text-black'>I am <span className='text-orange-500'>ALWAYS</span> eager to hear from anyone! If you'd like to contact me, look towards the following please! <span className='text-orange-500'>(Links below do work)</span>.</p>
+              <p className='py-2 dark:text-black'>I am <span className='text-orange-500'>ALWAYS</span> eager to hear from anyone! If you would like to contact me, look towards the following please! <span className='text-orange-500'>(Links below do work)</span>.</p>
               <h4 className='py-2 text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-400'>Hey! Look Here:</h4>
               <p className='py-2 text-xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-400'>Email: Henrylurssen@gmail.com</p>
-              <p><a href="https://www.linkedin.com/in/henry-lurssen-47127822a/" target="_blank" className='py-2 text-xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-400'>LinkedIn</a></p>
-              <p><a href="https://github.com/HLurssen" target="_blank" className='py-2 text-xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-400'>GitHub</a></p>
+              <p><a href="https://www.linkedin.com/in/henry-lurssen-47127822a/" target="_blank" rel="noreferrer" className='py-2 text-xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-400'>LinkedIn</a></p>
+              <p><a href="https://github.com/HLurssen" target="_blank" rel="noreferrer" className='py-2 text-xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-400'>GitHub</a></p>
             </div>
 
         </section>
